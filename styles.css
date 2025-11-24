@@ -1,0 +1,9 @@
+/* public/assets/css/styles.css */
+.calendar-grid { display: block; }
+.calendar-weekdays { display: grid; grid-template-columns: repeat(7,1fr); }
+.day-cell { border: 1px solid #e9ecef; min-height: 90px; padding: 6px; position: relative; cursor: pointer; background: white; }
+.day-cell--muted { background: #f8f9fa; color: #868e96; }
+.date-number { font-weight: 600; }
+.task-marker { position: absolute; right: 6px; bottom: 6px; background: #0d6efd; color: white; padding: 2px 6px; border-radius: 12px; font-size: 12px; }
+.today { box-shadow: 0 0 0 3px rgba(13,110,253,0.08); }
+.list-group-item { cursor: default; }
